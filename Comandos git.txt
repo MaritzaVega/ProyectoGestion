@@ -79,6 +79,12 @@ git clone https://......
 
 17° Extraer o bajar el archivo con cambios guardado de otra rama
 
+18 ° Extraer archivos de una rama 
+->git checkout NombreRama
+->git pull
+
+19° Combinar los cambios de NombreRama a Master Merge
+->->git checkout NombreRama
 
 Otras opciones 
 pwd = visualizas en que carpetop o directorio estas
