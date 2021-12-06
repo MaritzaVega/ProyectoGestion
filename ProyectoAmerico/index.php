@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -44,7 +44,7 @@
         <!---Pie de Pagina!-->
     </div>
     <div class="piePagina">
-        <label>Lima, San Juan de Miraflores</label>
+        <label>Lima, San Juan de Miraflores</label>             
     </div>
     <script src="/js/jquery-3.6.0.min.js"></script>
     <script src="/js/mains.js"></script>
