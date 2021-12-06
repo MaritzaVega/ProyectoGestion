@@ -41,10 +41,12 @@
                 <input type="submit" value="Ingresar">
              </form>
         </div>
+        <!---Pie de Pagina!-->
     </div>
-    
+    <div class="piePagina">
+        <label>Lima, San Juan de Miraflores</label>
+    </div>
     <script src="/js/jquery-3.6.0.min.js"></script>
     <script src="/js/mains.js"></script>
-
 </body>
 </html>
