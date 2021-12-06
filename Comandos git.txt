@@ -40,7 +40,7 @@
 12° Subir ya por segunda vez con actulizaciones
 -> git push
 
-13° Combinar los commit de la ramas existentes usando "Mergue"
+13° Combinar los commit de la ramas existentes a la principal usando "Mergue"
     (Aqui vas a guardar los cambios echo en una una rama, y guardarlos 
      o cambinarlos  para que se muestren en la rama master o principal )
 
