@@ -84,6 +84,7 @@ git clone https://......
 ->git pull
 
 19° Combinar los cambios de NombreRama a Master Merge
+
 -> git checkout NombreRama
 -> git add .
 -> git commit -m "Descripción"
@@ -91,7 +92,7 @@ git clone https://......
 -> git checkout master
 -> git merge Marlene
 -> git status
--> add .
+-> git add .
 -> git commit -m "Se jalo cambios de NombreRama"
 
 -> git push 
