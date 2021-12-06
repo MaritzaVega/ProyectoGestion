@@ -1,0 +1,83 @@
+1° Iniciar un proyecto
+-> git init
+
+2° Ver el estado
+-> git status
+
+3° Agregar el archivos al repositorio
+-> git add .
+-> git add -A
+-> git add 'NombreArchivo'
+-> git add -all
+
+4° Guardado con descripción
+-> git commit -m "Descripción"
+
+5° Saber que rama hay y/o saber las ramas existentes
+->git branch
+
+6° Crear una nueva rama y que se muestre en repositorio github
+->git branch Nombre
+->git push --set-upstream origin NombreRama
+
+7° Crear una nueva Rama y entrar en ella
+-> git checkout -b NombredelaRama
+
+8° Saber las modificaciones de un archivo y quien lo realizo
+-> git log
+      o
+-> git log --oneline
+
+9° Cambiar de rama
+-> git checkout NombreRama
+
+10° Subir el proyecto nuevo al repositorio creado a traves de la dirección
+-> git remote add origin https://.........
+
+11° Subir el proyecto
+-> git push -u origin "master" o "main" o "nombreRama"
+
+12° Subir ya por segunda vez con actulizaciones
+-> git push
+
+13° Combinar los commit de la ramas existentes usando "Mergue"
+    (Aqui vas a guardar los cambios echo en una una rama, y guardarlos 
+     o cambinarlos  para que se muestren en la rama master o principal )
+
+Seguir los siguientes comando: 
+
+->git status
+->git branch
+->git checkout NombredelaRama
+->git log --oneline
+
+->git checkout master
+->git status
+->git branch
+->git merge NambredelaRama
+
+14° Clonar proyecto de repositorio
+
+git clone https://......
+
+15° Como subir un archivo o proyecto?
+->git clone
+->git checkout -b <nombre de cualquier rama que quieras>
+->git add .
+->git commit -m 'mensaje que quieras'
+->git push --set-upstream origin <nombre de la rama>
+
+
+16° Como eliminar una rama 
+->git checkout master
+->git branch
+->git branch -d NombreRama
+->git branch
+->git push origin :NombreRama
+
+(Y por ultimo actualizar el repositorio del github) 
+
+17° Extraer o bajar el archivo con cambios guardado de otra rama
+
+
+
