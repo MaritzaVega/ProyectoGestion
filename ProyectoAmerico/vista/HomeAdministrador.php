@@ -11,11 +11,6 @@ include "SuperiorA.php"
             </div>
         </div>
 
-        <div class="container-flat-form"  >
-      
-
-    </div>
-
     <div class="container-flat-form" style="align-content: center; margin: 0px 0px 0px 20px;">            
         <div class="title-flat-form title-flat-blue"> Acceso rápido a su Dashboard <br></div>
 
