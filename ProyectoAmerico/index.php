@@ -33,7 +33,7 @@
             <img src="imagenes/logo.JPG">
             <form action="controlador/validarLogin.php">
                 <img class="iconologo" src="imagenes/usuario.png">
-                <label>Usuario:</label> <input type="text" placeholder="Usuario" name="usuario" required>
+                <label>Usuario:</label> <input type="number" placeholder="Usuario" name="usuario" required>
                 <br>
                 <br>
                 <img class="iconologo" src="imagenes/contraseña.png">
