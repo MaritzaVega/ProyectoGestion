@@ -47,7 +47,7 @@ $u=$_SESSION['user'];
                 <ul class="list-unstyled">
                     <li><a href="HomeVendedor.php"><i class="zmdi zmdi-home zmdi-hc-fw"></i>&nbsp;&nbsp; Inicio</a></li>
                     <li>
-                        <div class="dropdown-menu-button"><i class="zmdi zmdi-assignment-o zmdi-hc-fw"></i>&nbsp;&nbsp; Operación <i class="zmdi zmdi-chevron-down pull-right zmdi-hc-fw icon-sub-menu"></i></div>
+                        <div class="dropdown-menu-button"><i class="zmdi zmdi-wrench"></i>&nbsp;&nbsp; Operación <i class="zmdi zmdi-chevron-down pull-right zmdi-hc-fw icon-sub-menu"></i></div>
                         <ul class="list-unstyled">
                             <li><a href="EmitirBoletaVenta.php"><i class="zmdi zmdi-book zmdi-hc-fw"></i>&nbsp;&nbsp; Emitir Boleta de Venta</a></li>
                              <!--<li><a href="BuscaAlumnoA.php"><i class="zmdi zmdi-book zmdi-hc-fw"></i>&nbsp;&nbsp; Buscar Alumno</a></li>-->
@@ -62,7 +62,7 @@ $u=$_SESSION['user'];
                         <ul class="list-unstyled">
                             <li><a href="ReporteBalanceVenta.php"><i class="zmdi zmdi-book zmdi-hc-fw"></i>&nbsp;&nbsp; Emitir Reporte de Balance de Venta</a></li>
                              <!--<li><a href="BuscaAlumnoA.php"><i class="zmdi zmdi-book zmdi-hc-fw"></i>&nbsp;&nbsp; Buscar Alumno</a></li>-->
-                            <li><a href="RegistraExpediente.php"><i class="zmdi zmdi-book zmdi-hc-fw"></i>&nbsp;&nbsp; Emitir reporte de invntario</a></li>
+                            <li><a href="RegistraExpediente.php"><i class="zmdi zmdi-book zmdi-hc-fw"></i>&nbsp;&nbsp; Emitir Reporte de Inventario</a></li>
                             
                         </ul>
                     </li>
