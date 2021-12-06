@@ -1,8 +1,11 @@
 
         <footer class="footer" > 
-            <div class="container-fluid">
+        <br>
+        <br>    
+        <div class="container-fluid">
                 <div class="row">
                     <div class="col-xs-12 col-sm-6">
+                
                         <h4 class="all-tittles">Acerca de</h4>
                         <p>
                             Estudiantes de la Universidad Nacional Tecnológica de Lima Sur que han desarrollado un Sistema de Ventas e Inventario.
