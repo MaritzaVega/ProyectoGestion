@@ -1,10 +1,12 @@
 <?php 
 include "SuperiorA.php"
 ?>
-<div style="background-image: url('../assets/img/fondoA.jpg');">
+<div style="background-color: #ffffff">
         <div class="container">
+            
             <div class="page-header">
-              <h1 class="all-tittles" style="color: #FFF5F4">Sistema de Ventas  <small>Inicio Bienvenido</small></h1>
+              <h1 class="all-tittles" style="color: #000000; ">
+              Sistema de Ventas  <small>Inicio Bienvenido</small></h1>
               <h1 style="color: blue">
             </div>
         </div>

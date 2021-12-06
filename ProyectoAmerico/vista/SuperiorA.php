@@ -27,7 +27,8 @@ $u=$_SESSION['user'];
 </head>
 
 <body>
-    <div class="navbar-lateral full-reset" style="background-image: url('../assets/img/admin.jpg');">  
+    <!--full-reset-->
+    <div class="navbar-lateral full-reset" style="background-color: #0065cb">  
         <div class="visible-xs font-movile-menu mobile-menu-button"></div>
         <div class="full-reset container-menu-movile nav-lateral-scroll">
             <div class="logo full-reset all-tittles">
@@ -37,19 +38,13 @@ $u=$_SESSION['user'];
             
             <div class="nav-lateral-divider full-reset"></div>
             <!--Logo de la Binlioteca-->
-            <br>
             <div class="full-reset" style="padding: 10px 0; color:#fff;">
-                <figure>
-                    <img src="../imagenes/logo.JPG" alt="Biblioteca" class="img-responsive center-box" style="width:55%;">
-                </figure>
-                <br>
-                <p style="text-align: center;">MENU DE SISTEMA</p>
+                    <img src="../imagenes/logo.JPG" alt="Biblioteca" class="img-responsive center-box" style="width:100%;">
             </div>
 
-            <div class="nav-lateral-divider full-reset" ></div>
+            <div class="nav-lateral-divider full-reset"></div>
             <div class="full-reset nav-lateral-list-menu">
                 <ul class="list-unstyled">
-                    <br>
                     <br>
                     <li>
                         <div class="dropdown-menu-button"><i class="zmdi zmdi-assignment-o zmdi-hc-fw"></i>&nbsp;&nbsp; Gestionar Usuario<i class="zmdi zmdi-chevron-down pull-right zmdi-hc-fw icon-sub-menu"></i></div>

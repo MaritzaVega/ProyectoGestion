@@ -60,6 +60,7 @@ span.label-mhover{
   align-items: center;
   justify-content: center;
 }
+
 .form-container{
     color: #fff;
     padding: 20px;
@@ -255,15 +256,17 @@ select.material-control-login:hover{
 
 .navbar-lateral{
     width: 300px;
-    background-image: url('../assets/img/nav-lateral.jpg');
+    background-color: #303F9F;
     height: 100%;
     position: absolute;
     top: 0;
     left: 0;
     z-index: 2;
 }
+
+
 .nav-lateral-divider{
-    border-top: 1px solid rgba(255,255,255,.2);
+    border-top: 2px solid rgb(102, 61, 61);
     width: 90%;
     margin: 0 auto;
 }
@@ -293,6 +296,7 @@ select.material-control-login:hover{
     padding: 0;
     display: block;
 }
+
 .nav-lateral-list-menu ul li a,
 .nav-lateral-list-menu ul li div{
     width: 100%;
@@ -391,7 +395,7 @@ select.material-control-login:hover{
    background-color: #16a085;
 }
 .title-flat-blue{
-   background-color: #3598D9;
+   background-color: #193b89;
 }
 /*Controles de formularios material desing ================*/
 .group-material{ 
