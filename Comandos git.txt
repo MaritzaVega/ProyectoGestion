@@ -80,4 +80,8 @@ git clone https://......
 17° Extraer o bajar el archivo con cambios guardado de otra rama
 
 
-
+Otras opciones 
+pwd = visualizas en que carpetop o directorio estas
+cd 'Nombrecarpeta' = entras a la carpeta 
+ls = listas los archivos de la carpeta que te encuentras
+cd .. sales una carpeta antes de la que estabas
