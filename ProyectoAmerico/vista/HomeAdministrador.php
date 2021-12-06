@@ -12,7 +12,11 @@ include "SuperiorA.php"
         </div>
 
     <div class="container-flat-form" style="align-content: center; margin: 0px 0px 0px 20px;">            
+<<<<<<< HEAD
         <div class="title-flat-form title-flat-blue"> Acceso rápido a su Dashboard AQUI<br></div>
+=======
+        <div class="title-flat-form title-flat-blue"> Acceso rápido a su Dashboard Aqui<br></div>
+>>>>>>> Marlene
 
         <section class="full-reset text-center" style="padding: 25px 0px;">
             <article class="tile">
