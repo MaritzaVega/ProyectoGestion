@@ -40,7 +40,7 @@ body{
 
 .contenedor-form{
     position: relative; /* crearcuenta*/
-    background: rgba(65, 110, 161, 0.8); /*color contraste*/
+    background: rgba(60, 66, 150, 0.8); /*color contraste*/
     width: 100%;
     max-width: 500px;
     margin:50px auto;
@@ -138,7 +138,9 @@ body{
     width: 40px;
 }
  
-.piePagina label{
-    margin-left: 100px;
+.piePagina {
+    margin-left: 20%;
+    margin-bottom: 0px;
 }
+
 
