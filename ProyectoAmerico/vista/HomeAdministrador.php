@@ -22,7 +22,7 @@ include "SuperiorA.php"
                 <div class="tile-num full-reset" style="font-size: 16px;">AMÉRICO </div>
             </article>
             <article class="tile">
-                <div class="tile-icon full-reset"><a href="ListaExpediente.php"><img src="../assets/img/checklist.png" alt="user" class="img-responsive center-box" style="max-width: 100px;"></a></div>
+                <div class="tile-icon full-reset"><a href="ListaUsuarios.php"><img src="../assets/img/checklist.png" alt="user" class="img-responsive center-box" style="max-width: 100px;"></a></div>
                 <div class="tile-name all-tittles">Gestionar Usuario</div>
                 <div class="tile-num full-reset" style="font-size: 16px;">Multifunciones Usurios</div>
             </article>
