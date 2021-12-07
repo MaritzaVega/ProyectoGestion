@@ -9,6 +9,7 @@ $empleado = new Empleado();
 $empleado->buscarEmpleado($u);
 
 
+
 ?>
    <div style="background-image: url('../assets/img/fondoA.jpg');">
         <div class="container">
