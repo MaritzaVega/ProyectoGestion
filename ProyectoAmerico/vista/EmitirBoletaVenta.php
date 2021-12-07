@@ -120,7 +120,7 @@ include "SuperiorV.php"
                     <label style="padding: 10px 0px 10px 10px; font-weight: 700;">Buscar producto</label>
                      <input style = "margin: 0px 0px 0px 15px; width: 750%;"type="search" name="buscauser" id="buscauser" style="display: inline-block !important; width: 70%;" class="material-control tooltips-general" placeholder="Buscar Producto"  data-toggle="tooltip" data-placement="top" title="Escribe el nombre del Producto a buscar">
             
-               <button style = "margin: 10px 20px 20px 30px; " type="submit" onclick="document.location = 'RegistraUsuario.php'" name="signup" class="btn btn-primary">  BUSCAR </button>
+               <button style = "margin: 10px 20px 20px 30px; " type="submit" onclick="document.location = 'ListaProductoStock.php'" name="signup" class="btn btn-primary">  BUSCAR </button>
                     </th>
                 </tr>
         </table>
