@@ -377,7 +377,7 @@ select.material-control-login:hover{
 .container-flat-form{
     width: 98%;
     margin: 25px auto;
-    box-shadow: 0 0 3px rgba(0,0,0,.2);
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
     border-radius: 5px;
     position: relative;
     padding-bottom: 25px;
@@ -429,6 +429,7 @@ select.material-control{
     outline:none;
     border-bottom:1px solid #5264AE;
 }
+.conte
 /*Label de formularios material desing ================*/
 .group-material label{
   color:#999; 

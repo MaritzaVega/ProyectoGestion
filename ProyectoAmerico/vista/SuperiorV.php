@@ -34,13 +34,11 @@ $u=$_SESSION['user'];
                 sistema de ventas
             </div>
             <div class="nav-lateral-divider full-reset"></div>
-            <!--Logo de la Binlioteca-->
+            <!--Logo de Vendedor-->
             <div class="full-reset" style="padding: 10px 0; color:#fff;">
-                <figure>
-                    <img src="../assets/img/usuario.png" alt="Biblioteca" class="img-responsive center-box" style="width:55%;">
-                </figure>
-                <p class="text-center" style="padding-top: 15px;">Sistema de Ventas </p>
+                    <img src="../imagenes/logo.JPG" alt="Biblioteca" class="img-responsive center-box" style="width:100%;">
             </div>
+            <p class="text-center" style="padding-top: 15px; color:#ffffff; font-weight: 900;"> Menú del Sistema</p>
 
             <div class="nav-lateral-divider full-reset" ></div>
             <div class="full-reset nav-lateral-list-menu">
