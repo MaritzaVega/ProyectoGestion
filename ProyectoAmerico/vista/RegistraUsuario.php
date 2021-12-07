@@ -71,7 +71,7 @@ $datos = $cargo->buscarCargo();
                             <label>N° Documento de Identidad: </label>
                             <div class="group-material">
                                 <div class="form-group">
-                                <input  for="fecha" class="material-control tooltips-general" type="text" id="numDoc" name="numDoc" required="">
+                                <input  for="fecha" class="material-control tooltips-general" type="number" id="numDoc" name="numDoc" required="">
                                 </div>
                                 <span class="highlight"></span>
                                 <span class="bar"></span>                                
