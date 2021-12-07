@@ -8,18 +8,18 @@ $listausuario = new Usuario();
 include "SuperiorV.php"
 ?>
 
-<div style="background-image: url('../assets/img/fondoA.jpg');">
+<div style="background-color: #192226;">
 <div class="container">
             <div class="page-header">
               <h1 class="all-tittles" style="color: #FFF5F4">sistema de gestión de ventas <small>Emitir Boleta de Venta</small></h1>
             </div>
         </div>
-        <div class="container-fluid"  style="margin: 50px 0;">
+        <div class="container-fluid"  style="margin: 20px 10px;">
             <div class="row">
                 <div class="col-xs-12 col-sm-4 col-md-3">
-                    <img src="../assets/img/flat-book.png" alt="user" class="img-responsive center-box" style="max-width: 110px;">
+                    <img src="../assets/img/flat-book.png" style="margin: 0px 0px 50px 200px; width: 30%;" alt="user" class="img-responsive center-box" style="max-width: 110px;">
                 </div>
-                <div class="col-xs-12 col-sm-8 col-md-8 text-justify lead" style="color: #FFF5F4">
+                <div class="col-xs-12 col-sm-8 col-md-8 text-justify lead" style="color: #FFF5F4; padding-top: 30px ; width: 30%;">
                 Bienvenido a la sección donde se emitira la boleta de venta<br>
                 </div>
             </div>
@@ -29,24 +29,15 @@ include "SuperiorV.php"
             <div class="container-flat-form">
                 <div class="title-flat-form title-flat-red">Boleta de Venta</div>
                 <form class="form-padding" method="post" action="../controlador/registraUsuario.php">
-                    <div class="row">
-                    <!DOCTYPE html>
-<html lang="es">
-<head>
-				<meta charset="UTF-8">
-				<title>Prueba</title>
-</head>
-<body>
-				
-                    <table>
-					<tr >	
-										<th>
-                                                        <p style="margin: 0px 0px 0px 21px">Codigo de vendedor</p>
-                                                        <span  type="text"  style="margin: 10px 300px 0px 20px" class="all-tittles"> <?php echo $u;?></span>
-														
-														<br>
-														<br>
-                                                        <p style="margin: 0px 0px 0px 21px">Cliente:</p>
+    <div class="Cabecera"></div>
+    <table>
+        <tr>	
+		<th>
+         <p style="margin: 0px 0px 0px 21px">Codigo de vendedor</p>
+         <span  type="text"  style="margin: 10px 300px 0px 20px" class="all-tittles"> <?php echo $u;?></span>
+		 <br>
+         <br>
+         <p style="margin: 0px 0px 0px 21px">Cliente:</p>
 											         	
 													<input type="text" name="cliente"style="margin: 10px 300px 0px 20px">	
                                                     
