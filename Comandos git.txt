@@ -84,9 +84,23 @@ git clone https://......
 ->git pull
 
 19° Combinar los cambios de NombreRama a Master Merge
-->->git checkout NombreRama
+-> git checkout NombreRama
+-> git add .
+-> git commit -m "Descripción"
 
-Otras opciones 
+-> git checkout master
+-> git merge Marlene
+-> git status
+-> add .
+-> git commit -m "Se jalo cambios de NombreRama"
+
+-> git push 
+-> git checkout NmobreRama
+
+-> git push
+
+
+Otras comandos auxiliares
 pwd = visualizas en que carpetop o directorio estas
 cd 'Nombrecarpeta' = entras a la carpeta 
 ls = listas los archivos de la carpeta que te encuentras
