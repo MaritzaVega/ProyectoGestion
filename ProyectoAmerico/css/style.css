@@ -36,14 +36,12 @@ html, body {
     background-color: rgb(182, 182, 182);
     border-radius: 5px;
     margin-right: 15%;
-    border-style: double;
+
 }
 .Tabla1 tr{
-    border-style: double;
    
 }
 .Tabla1 th{
-    border-style: double;
     
 }
 
@@ -73,7 +71,6 @@ html, body {
     background-color: rgb(182, 182, 182);
     border-radius: 5px;
     margin-right: 15%;
-    border-style: double;
 }
 
 .media-hover{padding: 7px; border-radius: 4px;}

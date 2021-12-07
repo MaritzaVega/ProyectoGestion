@@ -81,7 +81,6 @@ include "SuperiorA.php"
                        <div class="col-xs-12">
                             <p class="text-center">
                                 <button type="reset" class="btn btn-info" style="margin-right: 20px;"><i class="zmdi zmdi-roller"></i> &nbsp;&nbsp; Limpiar</button>
-
                                 <button type="submit" name="change" class="btn btn-primary"><i class="zmdi zmdi-floppy"></i> &nbsp;&nbsp; Guardar</button>
                             </p> 
                        </div>
