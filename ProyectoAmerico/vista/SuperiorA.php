@@ -73,6 +73,7 @@ $u=$_SESSION['user'];
                         <div class="dropdown-menu-button"><i class="zmdi zmdi-account-add zmdi-hc-fw"></i>&nbsp;&nbsp; Cuenta <i class="zmdi zmdi-chevron-down pull-right zmdi-hc-fw icon-sub-menu"></i></div>
                         <ul class="list-unstyled">
                             <li><a href="profileU.php"><i class="zmdi zmdi-face zmdi-hc-fw"></i>&nbsp;&nbsp; Mi Perfil</a></li>
+                            <li><a href="CambiarContrasenaAdmin.php"><i class="zmdi zmdi-account-box"></i>&nbsp;&nbsp; Restablecer Contraseña</a></li>
                         </ul>
                     </li>
                 </ul>

@@ -81,7 +81,9 @@ git clone https://......
 
 18 ° Extraer archivos de una rama 
 ->git checkout NombreRama
-->git pull
+->git merge NombreRama
+->git status
+->git pull origin NombreRama
 
 19° Combinar los cambios de NombreRama a Master Merge
 
