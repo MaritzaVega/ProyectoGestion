@@ -1,3 +1,13 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link rel="stylesheet" href="../style.css">
+<script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+</head>
+<body>
+</body>
+
 <?php 
 session_start();
 require_once ("conexion.php");
@@ -33,8 +43,7 @@ class UsuarioAdmin{
 	
 		}else{
 
-			echo "<script>alert('Datos Invalidos $p');</script>";
-            echo "<script type='text/javascript'> document.location ='../index.php'; </script>";
+			echo "<script src='../js/datosinvalidosAlerta.js'></script>";
 		}
 
 		$conectar->cerrarConexion();
