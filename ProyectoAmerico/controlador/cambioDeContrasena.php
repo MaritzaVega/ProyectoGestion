@@ -16,7 +16,7 @@ $confirmpassword = $_REQUEST['confirmpassword'];
     			</script>";
 		}else{
 			$usuario = new Usuario();
-			$usuario->cambiar($password,$newpassword,$u);
+			$usuario->cambiar($password,$newpassword);
 		}
 
 
