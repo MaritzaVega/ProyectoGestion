@@ -34,11 +34,9 @@ class UsuarioAdmin{
 
 			$cargo = $columna[4];
 			if($cargo==1){
-				echo "<script>alert('Bienvenido Administrador $cargo');</script>";
-				echo "<script type='text/javascript'> document.location ='../vista/HomeAdministrador.php'; </script>";
+				echo "<script src='../js/BienvenidoAdmi.js'></script>";
 			}else{
-				echo "<script>alert('Bienvenido Vendedor $cargo');</script>";
-				echo "<script type='text/javascript'> document.location ='../vista/HomeVendedor.php'; </script>";
+				echo "<script src='../js/BienvenidoVen.js'></script>";
 			}
 	
 		}else{
