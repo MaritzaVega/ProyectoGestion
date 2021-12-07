@@ -21,6 +21,58 @@ html, body {
     font-family: "Parrafos" !important;
     background-color: #fff;
 }
+
+.Cabecera label{
+    background-color: #7f0000;
+    color: #ffffff;
+    margin-left: 10%;
+    border-radius: 5px;
+    padding: 5px 70px 5px 70px;
+
+}
+
+.Tabla1{
+    margin-left: 10%;
+    background-color: rgb(182, 182, 182);
+    border-radius: 5px;
+    margin-right: 15%;
+
+}
+.Tabla1 tr{
+   
+}
+.Tabla1 th{
+    
+}
+
+.Tabla1 input{
+    margin: 0px 80px 0px 15px;
+}
+.Tabla1 select{
+    margin: 20px 0px 0px 0px 
+}
+
+
+.Tabla1 p{
+    padding: 10px 0px 10px 10px;
+    
+}
+
+.Tabla1 span{
+    background-color: rgb(119, 119, 119);
+    border-radius: 5px;
+    margin: 10px 80px 0px 15px;
+    padding: 5px 70px 5px 70px ;
+    color: #7f0000;
+}
+
+.Tabla2{
+    margin-left: 10%;
+    background-color: rgb(182, 182, 182);
+    border-radius: 5px;
+    margin-right: 15%;
+}
+
 .media-hover{padding: 7px; border-radius: 4px;}
 .media-hover:hover{ background-color: #F5F5F5; }
 .all-tittles{ font-family: "Titulos" !important; }
@@ -377,7 +429,7 @@ select.material-control-login:hover{
 .container-flat-form{
     width: 98%;
     margin: 25px auto;
-    box-shadow: 0 0 3px rgba(0,0,0,.2);
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
     border-radius: 5px;
     position: relative;
     padding-bottom: 25px;
@@ -429,6 +481,7 @@ select.material-control{
     outline:none;
     border-bottom:1px solid #5264AE;
 }
+.conte
 /*Label de formularios material desing ================*/
 .group-material label{
   color:#999; 

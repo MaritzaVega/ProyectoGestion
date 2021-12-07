@@ -9,15 +9,12 @@ include "SuperiorV.php"
               <h1 style="color: blue">
             </div>
         </div>
-
-        <div class="container-flat-form"  >
-      
-
-    </div>
-
+    <br>
+    <br>
     <div class="container-flat-form">            
         <div class="title-flat-form title-flat-blue"> Acceso rápido a su Dashboard <br></div>
-
+        <br>
+        <br>
         <section class="full-reset text-center" style="padding: 0px 0;">
             <article class="tile">
                 <div class="tile-icon full-reset" ><a href="institucionA.php"><img src="../assets/img/institution.png" alt="user" class="img-responsive center-box" style="max-width: 100px;"></a></div>                
