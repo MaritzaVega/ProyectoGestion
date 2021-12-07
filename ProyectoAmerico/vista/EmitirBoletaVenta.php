@@ -8,45 +8,137 @@ $listausuario = new Usuario();
 include "SuperiorV.php"
 ?>
 
-<div style="background-image: url('../assets/img/fondoA.jpg');">
+<div style="background-color: #192226;">
 <div class="container">
             <div class="page-header">
               <h1 class="all-tittles" style="color: #FFF5F4">sistema de gestión de ventas <small>Emitir Boleta de Venta</small></h1>
             </div>
         </div>
-        <div class="container-fluid"  style="margin: 50px 0;">
+        <div class="container-fluid"  style="margin: 20px 10px;">
             <div class="row">
                 <div class="col-xs-12 col-sm-4 col-md-3">
-                    <img src="../assets/img/flat-book.png" alt="user" class="img-responsive center-box" style="max-width: 110px;">
+                    <img src="../assets/img/flat-book.png" style="margin: 0px 0px 50px 200px; width: 30%;" alt="user" class="img-responsive center-box" style="max-width: 110px;">
                 </div>
-                <div class="col-xs-12 col-sm-8 col-md-8 text-justify lead" style="color: #FFF5F4">
+                <div class="col-xs-12 col-sm-8 col-md-8 text-justify lead" style="color: #FFF5F4; padding-top: 30px ; width: 30%;">
                 Bienvenido a la sección donde se emitira la boleta de venta<br>
                 </div>
             </div>
         </div>
-       
+
+        <div class="Cabecera">
+        <Label>BOLETA DE VENTA  </Label>
+        </div>
+
+        <div class="Tabla1">
+            <table>
+                <tr>
+                    <th>
+                    <p>Codigo de vendedor</p>
+                    <span  type="text"  class="all-tittles" ><?php echo $u;?></span>
+                    <br>
+                    <br>
+                </th>
+
+                <th>
+                <p>Vendedor</p>
+                    <input  type="text"  class="all-tittles" >
+                    <br>
+                    <br>
+                </th>
+
+                <th>
+                   
+                </th>
+
+                <th>
+                <div style="background-color:#303f9f ; width:100%; color:#FFFFFF; margin: 0px 50px 0px 0px">
+					<br>
+                    <br>
+					</div>
+                    <div style=" color : #FFFFFF; background-color:#7f0000 ; width:100%; text-align: center; " >
+					<label> Boleta de venta </label>
+					<br>
+					</div>
+					<div style="background-color:#303f9f; width:100% ; height:100% ; top:10px; text-align: center">
+					<label style="color: #FFFFFF;">N°</label> 
+                    <input  style="width:80% ; margin:5px 300px 10px 35px ;" type="number" placeholder="00000000">
+					<br>
+                    <br>
+                    <br>
+                    <p style="color:#FFFFFF">Fecha de emision:</p>
+                       <input style="margin: 10px 3px 20px 30px " type="date" name="fecha">
+
+                    </div>
+                </th>
+
+                </tr>
+                
+                <tr>
+                <th>
+                <p>Cliente</p>
+                    <input  type="text"  class="all-tittles" >
+                    <br>
+                    <br>
+                </th>
+                <th>
+                <p>Tipo Documento</p>
+                    <select name="Tdocumento"> 
+                        <option>DNI</option> 
+                        <option>PASAPORTE</option> 
+                    </select> 
+                </th>
+                <th>
+                <p> Número de Documento</p>
+                    <input  type="number"  class="all-tittles" >
+                    <br>
+                    <br>
+                </th>
+                </tr>
+                <tr>
+                    <th>
+                        <p>Dirección</p>
+                        <input  type="text"  class="all-tittles" >
+                        <br>
+                        <br>
+                    </th>
+
+                    <th>
+                        <p>Celular</p>
+                        <input  type="number"  class="all-tittles" >
+                        <br>
+                        <br>
+                    </th>
+                </tr>
+            </table>
+        </div>
+        <br>
+
+        <div class="Tabla2">
+        <table>
+                <tr>
+                    <th>
+                    
+                    </th>
+                </tr>
+        </table>
+        </div>
+
+<br>
+<br>
+<br>
       </div class="container-fluid"  >
             <div class="container-flat-form">
                 <div class="title-flat-form title-flat-red">Boleta de Venta</div>
                 <form class="form-padding" method="post" action="../controlador/registraUsuario.php">
-                    <div class="row">
-                    <!DOCTYPE html>
-<html lang="es">
-<head>
-				<meta charset="UTF-8">
-				<title>Prueba</title>
-</head>
-<body>
-				
-                    <table>
-					<tr >	
-										<th>
-                                                        <p style="margin: 0px 0px 0px 21px">Codigo de vendedor</p>
-                                                        <span  type="text"  style="margin: 10px 300px 0px 20px" class="all-tittles"> <?php echo $u;?></span>
-														
-														<br>
-														<br>
-                                                        <p style="margin: 0px 0px 0px 21px">Cliente:</p>
+            
+    <table>
+        <tr>	
+		<th>
+         <p style="margin: 0px 0px 0px 21px">Codigo de vendedor</p>
+         <span  type="text"  style="margin: 10px 300px 0px 20px" class="all-tittles"> <?php echo $u;?></span>
+		 <br>
+         <br>
+         <p style="margin: 0px 0px 0px 21px">Cliente:</p>
 											         	
 													<input type="text" name="cliente"style="margin: 10px 300px 0px 20px">	
                                                     
