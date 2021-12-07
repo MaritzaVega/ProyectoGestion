@@ -1,12 +1,14 @@
 <?php
 include "../modelo/clusuariosadmin.php";
 
-$c = $_SESSION["clave"];
-$u = $_SESSION["usuario"];
+
+$c = $_SESSION["password"];
+$u = $_SESSION["user"];
 
 $password = $_REQUEST['password'];
 $newpassword = $_REQUEST['newpassword'];
 $confirmpassword = $_REQUEST['confirmpassword'];
+
 
 		if ( $c != $password ){
 				
@@ -14,6 +16,8 @@ $confirmpassword = $_REQUEST['confirmpassword'];
                 	alert('Contraseña Invalida');
                 	window.location= '../vista/CambiarContrasenaAdmin.php'
     			</script>";
+
+
 		}else{
 			$usuario = new UsuarioAdmin();
 			$usuario->cambiar($password,$newpassword,$u);
