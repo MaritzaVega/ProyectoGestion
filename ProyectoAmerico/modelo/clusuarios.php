@@ -1,3 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link rel="stylesheet" href="../style.css">
+<script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+</head>
+<body>
+</body>
+
+
 <?php 
 
 require_once "conexion.php";
@@ -117,10 +128,8 @@ class Usuario{
 
 		if ($columna = mysqli_fetch_array($consulta) ){
 
-			echo "<script type=text/javascript>
-			               alert('El usuario ya se encuentra en el Sistema');
-			               window.location.href= '../vista/RegistraUsuario.php'
-			     </script>";
+			echo "<script src='../js/usuarioExisteSistema.js'></script>";
+
 		}else{
 			
 			//Insertar en la tabla Usuario

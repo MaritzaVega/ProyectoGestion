@@ -47,6 +47,7 @@ $u=$_SESSION['user'];
                 
                 <ul class="list-unstyled">
                     <br>
+                    <li><a href="HomeAdministrador.php"><i class="zmdi zmdi-home zmdi-hc-fw"></i>&nbsp;&nbsp; Inicio</a></li>
                     <li>
                         <div class="dropdown-menu-button"><i class="zmdi zmdi-assignment-o zmdi-hc-fw"></i>&nbsp;&nbsp; Gestionar Usuario<i class="zmdi zmdi-chevron-down pull-right zmdi-hc-fw icon-sub-menu"></i></div>
                         <ul class="list-unstyled">
