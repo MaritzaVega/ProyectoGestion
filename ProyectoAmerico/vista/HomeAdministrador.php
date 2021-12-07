@@ -6,7 +6,7 @@ include "SuperiorA.php"
             
             <div class="page-header">
               <h1 class="all-tittles" style="color: #000000; ">
-              Sistema de Ventas  <small>Inicio Bienvenido</small></h1>
+              Sistema de Ventas  <small>Inicio Bienvenidos</small></h1>
               <h1 style="color: blue">
             </div>
         </div>
