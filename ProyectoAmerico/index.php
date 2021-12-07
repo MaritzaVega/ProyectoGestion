@@ -7,11 +7,13 @@
     <title>Sistema VeI Americo-Login</title>
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/style.css">
+
 </head>
 
 <body>
     <!---------------CABECERAS---------------->
-    <div class="barraNav"> <!--No se usa todavia la class--->
+    <div class="barraNav all-tittles"> <!--No se usa todavia la class--->
         <header class="cabeceraMy">
         <nav class="cabecera1">
             <h2>SISTEMA DE VENTA E INVENTARIO</h2>
@@ -27,23 +29,23 @@
     <br>
     <div class="contenedor-form">
         
-        <div class="formLogin">
+        <div class="formLogin all-tittles">
             <img src="imagenes/logo.JPG">
             <form action="controlador/validarLogin.php">
                 <img class="iconologo" src="imagenes/usuario.png">
-                Usuario: <input type="text" placeholder="Usuario" name="usuario" required>
+                <label>Usuario:</label> <input type="number" placeholder="Usuario" name="usuario" required>
                 <br>
                 <br>
                 <img class="iconologo" src="imagenes/contraseña.png">
-                Contraseña: <input type="password" placeholder="Contraseña" name="clave" required>
+                <label>Contraseña:</label> <input type="password" placeholder="Contraseña" name="clave" required>
                 <br>
                 <br>
-                <input type="submit" value="Ingresar">
+                <input type="submit" class="all-tittles" value="Ingresar">
              </form>
         </div>
         <!---Pie de Pagina!-->
     </div>
-    <div class="piePagina">
+    <div class="piePagina all-tittles">
         <label>Lima, San Juan de Miraflores</label>             
     </div>
     <script src="/js/jquery-3.6.0.min.js"></script>
