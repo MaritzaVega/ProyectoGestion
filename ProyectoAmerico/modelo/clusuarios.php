@@ -166,6 +166,23 @@ class Usuario{
 
 	}
 
+	///CambiarContraseña
+	public function cambiar($password,$newpassword){
+		$conectar = new Conexion();
+
+			
+			//Insertar en la tabla InicioSession
+			$instruccion = "UPDATE iniciosession SET password ='$newpassword' WHERE password= '$password'";
+			$consulta = mysqli_query($conectar->getConexion(),$instruccion);
+
+
+			echo "<script type=text/javascript>
+			               alert('Usuario modificado exitosamente.$password');
+			               window.location.href= '../vista/ListaUsuarios.php'
+			     </script>";
+
+	}
+
 
 	public function buscarUsuarios(){
 		$conectar = new Conexion();

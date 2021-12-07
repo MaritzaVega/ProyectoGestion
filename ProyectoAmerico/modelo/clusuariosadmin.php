@@ -53,7 +53,7 @@ class UsuarioAdmin{
 	public function cambiar($p,$n,$u){
 
 		$conectar = new Conexion();
-		$instruccion = "UPDATE usuarios SET clave ='$n' WHERE clave= '$p' and usuario= '$u'";
+		$instruccion = "UPDATE iniciosession SET password ='$n' WHERE password= '$p' and user= '$u'";
 		$consulta = mysqli_query($conectar->getConexion(),$instruccion)OR('hola');
 
 			echo "<script>
