@@ -10,11 +10,11 @@ class Empleado{
 	public $numDoc;
 	public $cargo;
 	
-	//Sistema comercial
+	//BuscarEmpleado
 	public function buscarEmpleado($id){
 		
 		$conectar = new Conexion();
-		$emple = "select * from usuario where idusuario= '$id' ";
+		$emple = "select * from usuario where idusuario = '$id'";
 		$consultaemple = mysqli_query ($conectar->getConexion(),$emple);
 
 		if ( $columna2 = mysqli_fetch_array($consultaemple) ){
@@ -35,12 +35,11 @@ class Empleado{
 		}
 		$conectar->cerrarConexion();	
 				
-		echo "<script type=text/javascript>
-		
-		
-</script>";
+		//echo "<script type=text/javascript> alert('$resultadocar[1]');</script>";
 	}
-	//Sistema Comercial
+
+
+	////BuscarEmpleado2
 	public function buscarEmpleado2(){
 		$conectar = new Conexion();
 		$sql = "select * from empleados where idrol=2";
@@ -50,10 +49,10 @@ class Empleado{
 
 
 
-	public function agregar($nombre,$apellido,$direccion,$calle,$distrito,$pais,$email,$celular,$tipodocumento,$numerodocumento ,$tipocliente,$tiposolicitud,$estadosolicitud,$fecha,$tipoconexion,$empleado,$nis){
+	/* public function agregar($nombre,$apellido,$tiposolicitud,$estadosolicitud,$fecha,$tipoconexion,$empleado,$nis){
 
 		$conectar = new Conexion();
-		$instruccion = "select * from cliente where idcliente = '$nis'";
+		$instruccion = "select * from usuario where idusuario = '$nis'";
 		$consulta = mysqli_query($conectar->getConexion(),$instruccion);
 
 		if ($columna = mysqli_fetch_array($consulta) ){
@@ -69,7 +68,7 @@ class Empleado{
 			$consulta = mysqli_query($conectar->getConexion(),$instruccion);
 
 			//Insertar en la tabla cliente
-			$instruccion2 = "insert into cliente values ('$nis','$nombre','$apellido', '$direccion','$calle','$distrito','$pais','$email','$celular','$tipodocumento','$numerodocumento', '$tipocliente','$nis')";
+			$instruccion2 = "insert into usuario values ('$idusuario','$nombre','$apellido', '$numDoc','$cargo')";
 			$consulta2 = mysqli_query($conectar->getConexion(),$instruccion2);
 	
 
@@ -78,7 +77,7 @@ class Empleado{
 			               window.location.href= '../vista/RegistraExpediente.php'
 			     </script>";
 		}
-	}
+	}*/
 
 	
 }

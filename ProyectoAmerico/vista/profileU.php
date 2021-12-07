@@ -49,33 +49,25 @@ $empleado->buscarEmpleado($u);
                         </div>
                                                 
                         <div class="col-xs-12 col-sm-6" >
-                            <label style="color: #FFF5F4">Nombre completo del empleado: </label>
+                            <label style="color: #FFF5F4">Nombres: </label>
                             <div class="group-material">
-                                <input type="text" class="material-control tooltips-general" name="nombre-empleado" readonly="readonly" value="<?php echo $empleado->nombres," ",$empleado->apellidos?>">   
+                                <input type="text" class="material-control tooltips-general" name="nombre-empleado" readonly="readonly" value="<?php echo $empleado->nombre?>">   
+                                <span class="highlight"></span>
+                                <span class="bar"></span>                                
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-6" >
+                            <label style="color: #FFF5F4">Apellidos </label>
+                            <div class="group-material">
+                                <input type="text" class="material-control tooltips-general" name="nombre-empleado" readonly="readonly" value="<?php echo $empleado->apellidos?>">   
                                 <span class="highlight"></span>
                                 <span class="bar"></span>                                
                             </div>
                         </div>
                         <div class="col-xs-12 col-sm-6">
-                            <label style="color: #FFF5F4">E-mail: </label>
+                            <label style="color: #FFF5F4">Cargo: </label>
                             <div class="group-material">
-                                <input type="text" class="material-control tooltips-general" name="email-empleado" readonly="readonly" value="<?php echo $empleado->email?>">   
-                                <span class="highlight"></span>
-                                <span class="bar"></span>                                
-                            </div>
-                        </div>
-                        <div class="col-xs-12 col-sm-6">
-                            <label style="color: #FFF5F4">Celular: </label>
-                            <div class="group-material">
-                                <input type="text" class="material-control tooltips-general" name="celular-empleado" readonly="readonly" value="<?php echo $empleado->celular?>">   
-                                <span class="highlight"></span>
-                                <span class="bar"></span>                                
-                            </div>
-                        </div>
-                        <div class="col-xs-12 col-sm-6">
-                            <label style="color: #FFF5F4">Género: </label>
-                            <div class="group-material">
-                                <input type="text" class="material-control tooltips-general" name="genero-empleado" readonly="readonly" value="<?php echo $empleado->genero?>">   
+                                <input type="text" class="material-control tooltips-general" name="celular-empleado" readonly="readonly" value="<?php echo $empleado->cargo?>">   
                                 <span class="highlight"></span>
                                 <span class="bar"></span>                                
                             </div>
@@ -83,7 +75,7 @@ $empleado->buscarEmpleado($u);
                         <div class="col-xs-12 col-sm-6">
                             <label style="color: #FFF5F4">N° documento: </label>
                             <div class="group-material">
-                                <input type="text" class="material-control tooltips-general" name="numerodoc-empleado" readonly="readonly" value="<?php echo $empleado->numerodoc?>">   
+                                <input type="text" class="material-control tooltips-general" name="numerodoc-empleado" readonly="readonly" value="<?php echo $empleado->numDoc?>">   
                                 <span class="highlight"></span>
                                 <span class="bar"></span>                                
                             </div>
