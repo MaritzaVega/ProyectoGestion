@@ -24,12 +24,113 @@ include "SuperiorV.php"
                 </div>
             </div>
         </div>
-       
+
+        <div class="Cabecera">
+        <Label>BOLETA DE VENTA  </Label>
+        </div>
+
+        <div class="Tabla1">
+            <table>
+                <tr>
+                    <th>
+                    <p>Codigo de vendedor</p>
+                    <span  type="text"  class="all-tittles" ><?php echo $u;?></span>
+                    <br>
+                    <br>
+                </th>
+
+                <th>
+                <p>Vendedor</p>
+                    <input  type="text"  class="all-tittles" >
+                    <br>
+                    <br>
+                </th>
+
+                <th>
+                   
+                </th>
+
+                <th>
+                <div style="background-color:#303f9f ; width:100%; color:#FFFFFF; margin: 0px 50px 0px 0px">
+					<br>
+                    <br>
+					</div>
+                    <div style=" color : #FFFFFF; background-color:#7f0000 ; width:100%; text-align: center; " >
+					<label> Boleta de venta </label>
+					<br>
+					</div>
+					<div style="background-color:#303f9f; width:100% ; height:100% ; top:10px; text-align: center">
+					<label style="color: #FFFFFF;">N°</label> 
+                    <input  style="width:80% ; margin:5px 300px 10px 35px ;" type="number" placeholder="00000000">
+					<br>
+                    <br>
+                    <br>
+                    <p style="color:#FFFFFF">Fecha de emision:</p>
+                       <input style="margin: 10px 3px 20px 30px " type="date" name="fecha">
+
+                    </div>
+                </th>
+
+                </tr>
+                
+                <tr>
+                <th>
+                <p>Cliente</p>
+                    <input  type="text"  class="all-tittles" >
+                    <br>
+                    <br>
+                </th>
+                <th>
+                <p>Tipo Documento</p>
+                    <select name="Tdocumento"> 
+                        <option>DNI</option> 
+                        <option>PASAPORTE</option> 
+                    </select> 
+                </th>
+                <th>
+                <p> Número de Documento</p>
+                    <input  type="number"  class="all-tittles" >
+                    <br>
+                    <br>
+                </th>
+                </tr>
+                <tr>
+                    <th>
+                        <p>Dirección</p>
+                        <input  type="text"  class="all-tittles" >
+                        <br>
+                        <br>
+                    </th>
+
+                    <th>
+                        <p>Celular</p>
+                        <input  type="number"  class="all-tittles" >
+                        <br>
+                        <br>
+                    </th>
+                </tr>
+            </table>
+        </div>
+        <br>
+
+        <div class="Tabla2">
+        <table>
+                <tr>
+                    <th>
+                    
+                    </th>
+                </tr>
+        </table>
+        </div>
+
+<br>
+<br>
+<br>
       </div class="container-fluid"  >
             <div class="container-flat-form">
                 <div class="title-flat-form title-flat-red">Boleta de Venta</div>
                 <form class="form-padding" method="post" action="../controlador/registraUsuario.php">
-    <div class="Cabecera"></div>
+            
     <table>
         <tr>	
 		<th>

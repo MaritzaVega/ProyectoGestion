@@ -49,7 +49,7 @@ class Empleado{
 
 
 
-	public function agregar($nombre,$apellido,$direccion,$calle,$distrito,$pais,$email,$celular,$tipodocumento,$numerodocumento ,$tipocliente,$tiposolicitud,$estadosolicitud,$fecha,$tipoconexion,$empleado,$nis){
+	/* public function agregar($nombre,$apellido,$tiposolicitud,$estadosolicitud,$fecha,$tipoconexion,$empleado,$nis){
 
 		$conectar = new Conexion();
 		$instruccion = "select * from usuario where idusuario = '$nis'";
@@ -77,7 +77,7 @@ class Empleado{
 			               window.location.href= '../vista/RegistraExpediente.php'
 			     </script>";
 		}
-	}
+	}*/
 
 	
 }
