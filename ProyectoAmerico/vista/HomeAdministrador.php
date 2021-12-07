@@ -1,7 +1,7 @@
 <?php 
 include "SuperiorA.php"
 ?>
-<div style="background-color: #263238;">
+<div style="background-color: #172030;">
         <div class="container">
             
             <div class="page-header">
