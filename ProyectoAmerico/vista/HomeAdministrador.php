@@ -18,8 +18,8 @@ include "SuperiorA.php"
         <section class="full-reset text-center" style="padding: 25px 0px;">
             <article class="tile">
                 <div class="tile-icon full-reset" ><a href="institucionA.php"><img src="../assets/img/institution.png" alt="user" class="img-responsive center-box" style="max-width: 100px;"></a></div>                
-                <div class="tile-name all-tittles">Datos Institución</div>
-                <div class="tile-num full-reset" style="font-size: 16px;">UNTELS </div>
+                <div class="tile-name all-tittles">Datos de la Empresa</div>
+                <div class="tile-num full-reset" style="font-size: 16px;">AMÉRICO </div>
             </article>
             <article class="tile">
                 <div class="tile-icon full-reset"><a href="ListaExpediente.php"><img src="../assets/img/checklist.png" alt="user" class="img-responsive center-box" style="max-width: 100px;"></a></div>

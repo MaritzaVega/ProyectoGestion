@@ -34,12 +34,6 @@ include "SuperiorA.php"
             </div>
         </div>
         <div class="container-fluid">
-
-            <div>                        
-                <p class="text-right">
-                    <button type="submit" onclick="document.location = 'RegistraUsuario.php'" name="signup" class="btn btn-primary"><i class="zmdi zmdi-floppy"></i> &nbsp;&nbsp; CREAR NUEVO USUARIO </button>
-                </p> 
-            </div>
            
             <form class="col-xs-12"class="pull-right" style="width: 30% !important;" action="" method="post">
 

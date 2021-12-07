@@ -33,7 +33,11 @@ include "SuperiorA.php"
             </div>
         </div>
         <div class="container-fluid">
-
+            <div>                        
+                <p class="text-right">
+                    <button type="submit" onclick="document.location = 'RegistraUsuario.php'" name="signup" class="btn btn-primary"><i class="zmdi zmdi-floppy"></i> &nbsp;&nbsp; CREAR NUEVO USUARIO </button>
+                </p> 
+            </div>
             <h2 class="text-center all-tittles" style="clear: both; margin: 25px 0; color: #FFF5F4">listado de Clientes</h2>
             <div class="table-responsive">
                 <div class="div-table" style="margin:0 !important;">
