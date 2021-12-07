@@ -154,7 +154,7 @@ include "SuperiorV.php"
     <!--Busqueda del Producto-->
                 
 
-            <h2 class="text-center all-tittles" style="clear: both; margin: 25px 0px 0px 0px; color: #FFF5F4">Productos Solicitados</h2>
+            <label class="text-center all-tittles" style="padding: 15px 10px 10px 20px; color: #FFFFFF; background-color: #7f0000;">Productos Solicitados</label>
             <div class="table-responsive" style = "margin: 20px 30px 0px 30px ">
                 <div class="div-table" style="margin:0 !important;">
                     
