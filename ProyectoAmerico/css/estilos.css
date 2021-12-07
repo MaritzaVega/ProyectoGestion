@@ -32,7 +32,7 @@ body{
 }
 .cabecera2 h3{
     font-weight: 300;
-    padding: 10px 50px;
+    padding: 20px 60px; /*Aqui*/
     color: #ffff;
     
 }
