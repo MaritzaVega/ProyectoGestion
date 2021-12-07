@@ -46,7 +46,7 @@ include "SuperiorV.php"
                         <option>BAJO</option> 
                     </select> 
             
-               <button style = "margin: 10px 20px 20px 30px; " type="submit" onclick="document.location = 'ListaProductoStock.php'" name="signup" class="btn btn-primary">BUSCAR </button>
+               <button style = "margin: 10px 20px 20px 30px; " type="submit" onclick="document.location = 'ListaProductoStock.php'" name="signup" class="btn btn-primary">gitBUSCAR </button>
                     </th>
                 </tr>
         </table>
