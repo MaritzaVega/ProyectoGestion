@@ -2,8 +2,8 @@
 //include "../modelo/clusuarios.php";
 include "../modelo/clusuariosadmin.php";
 
-$u = $_REQUEST['usuario'];
-$p = $_REQUEST['clave'];
+$u = $_POST['usuario'];
+$p = $_POST['clave'];
 //$t = $_REQUEST['tipo'];
 
 		if ( trim($u) == '' || trim($p) == ''){

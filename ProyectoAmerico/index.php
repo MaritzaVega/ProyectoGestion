@@ -29,7 +29,7 @@
     <div class="contenedor-form">
         <div class="formLogin all-tittles">
             <img src="imagenes/logo.JPG">
-            <form action="controlador/validarLogin.php">
+            <form action="controlador/validarLogin.php" method="POST">
                 <img class="iconologo" src="imagenes/usuario.png">
                 <label>Usuario:</label> <input type="number" placeholder="Usuario" name="usuario" required>
                 <br>
