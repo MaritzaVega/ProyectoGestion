@@ -36,7 +36,7 @@ class Empleado{
 		$conectar->cerrarConexion();	
 				
 		echo "<script type=text/javascript>
-		alert('$resultadocar[1]');
+		
 		
 </script>";
 	}
