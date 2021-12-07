@@ -14,7 +14,7 @@ class Empleado{
 	public function buscarEmpleado($id){
 		
 		$conectar = new Conexion();
-		$emple = "select * from usuario where idusuario = '$id'";
+		$emple = "select * from usuario where numDoc = '$id'";
 		$consultaemple = mysqli_query ($conectar->getConexion(),$emple);
 
 		if ( $columna2 = mysqli_fetch_array($consultaemple) ){

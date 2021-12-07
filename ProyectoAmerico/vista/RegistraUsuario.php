@@ -59,7 +59,7 @@ $datos = $cargo->buscarCargo();
                         </div> 
 
                         <div class="col-xs-12 col-sm-6">
-                            <label>Apellidos: </label>
+                            <label>Apellidos(s): </label>
                             <div class="group-material">
                                 <input type="text" class="material-control tooltips-general" type="text" name="apellidos" id="apellidos" autocomplete="off" required  />    
                                 <span class="highlight"></span>
@@ -71,7 +71,7 @@ $datos = $cargo->buscarCargo();
                             <label>N° Documento de Identidad: </label>
                             <div class="group-material">
                                 <div class="form-group">
-                                <input  for="fecha" class="material-control tooltips-general" type="text" id="numDoc" name="numDoc" required="">
+                                <input  for="fecha" class="material-control tooltips-general" type="number" id="numDoc" name="numDoc" required="">
                                 </div>
                                 <span class="highlight"></span>
                                 <span class="bar"></span>                                
