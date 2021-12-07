@@ -54,20 +54,19 @@ include "SuperiorV.php"
                 <div style="background-color:#303f9f ; width:100%; color:#FFFFFF; margin: 0px 50px 0px 0px">
 					<br>
                     <br>
-					</div>
+				</div>
                     <div style=" color : #FFFFFF; background-color:#7f0000 ; width:100%; text-align: center; " >
-					<label> Boleta de venta </label>
-					<br>
+					    <label> Boleta de venta </label>
+					    <br>
 					</div>
 					<div style="background-color:#303f9f; width:100% ; height:100% ; top:10px; text-align: center">
-					<label style="color: #FFFFFF;">N°</label> 
-                    <input  style="width:80% ; margin:5px 300px 10px 35px ;" type="number" placeholder="00000000">
-					<br>
-                    <br>
-                    <br>
-                    <p style="color:#FFFFFF">Fecha de emision:</p>
+					    <label style="color: #FFFFFF;">N°</label> 
+                        <input  style="width:85% ; margin:5px 300px 10px 25px; text-align: center;" type="number" placeholder="00000000">
+					    <br>
+                        <br>
+                        <br>
+                        <p style="color:#FFFFFF">Fecha de emision:</p>
                        <input style="margin: 10px 3px 20px 30px " type="date" name="fecha">
-
                     </div>
                 </th>
 
@@ -132,65 +131,7 @@ include "SuperiorV.php"
                 <form class="form-padding" method="post" action="../controlador/registraUsuario.php">
             
     <table>
-        <tr>	
-		<th>
-         <p style="margin: 0px 0px 0px 21px">Codigo de vendedor</p>
-         <span  type="text"  style="margin: 10px 300px 0px 20px" class="all-tittles"> <?php echo $u;?></span>
-		 <br>
-         <br>
-         <p style="margin: 0px 0px 0px 21px">Cliente:</p>
-											         	
-													<input type="text" name="cliente"style="margin: 10px 300px 0px 20px">	
-                                                    
-                                                    <br>
-														<br>
-                                                        <p style="margin: 0px 0px 0px 21px">Direccion:</p>
-											         	
-													<input type="text" name="Direccion" style="margin: 10px 300px 0px 20px">
-														
-										</th>
-										<th> 
-                                                        <p style="margin: 20px 10px 2px 4px">Vendedor:</p>
-														
-														<input type="text" name="vendedor" style="margin:0px 360px -2px 0px">
-														<br>
-														<br>
-                                                        <p style="margin: 0px 0px 6px 4px">tipo documento: </p>
-														
-                                                        <select name="Tdocumento" style="margin:0px 0px 2px 0px" > 
-                                                       <option>DNI</option> 
-                                                       <option>PASAPORTE</option> 
-                                                       </select> 
-                                                        <input type="number" size="24" maxlength="30" value="numero" name="documento" required >
-														<br>
-														<br>
-                                                        <p style="margin: 0px 0px 13px 4px">	Celular: </p>
-											      
-													<input type="number" name="celular" style="margin:0px 100px 26px 0px">
-														</th>
-										<th>
-														<div style="background-color:blue; width:70% ; height:100% ; top:10px ;">......</div>
-																		<div style="background-color:red ; width:70%">
-																		Boleta de venta
-																		<br>
-																		</div>
-																		<div style="background-color:blue; width:70% ; height:100% ; top:10px">
-																		N° <input  style="width:50% ; margin:55px 300px 80px 20px" type="number" placeholder="00000000">
-														</div>
-										</th>
-					                    </tr>
-							
-				                    	<tr>
-								
-					</tr>
-					</table>
-
-                        
-                    <p style="margin: 20px 10px 2px 1050px">Fecha de emision:</p>
-                        <p class="text-right" >
-                    
-                       <input type="date" name="fecha">
-                       </p>
+        
        <!--
         <div class="container-fluid">
             <div class="row">
