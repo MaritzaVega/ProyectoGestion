@@ -45,14 +45,12 @@ include "SuperiorV.php"
                 </select> 
                 <button class="btn" style="margin: 0; height: 43px; color:white; background-color: transparent !important;">
                     <i class="zmdi zmdi-search" style="font-size: 25px;"></i>
-                </button>                   
+                </button>
+                <button onclick="location.href='ListaProductoStock.php'" class="btn" style="margin: 0; height: 43px; color:white; background-color: transparent !important;">
+                    <i class="zmdi zmdi-replay" style="font-size: 25px;"></i>
+                </button>                  
             </div>
         </form>
-
-        <button type="search" onclick="location.href='ListaProductoStock.php'" style="margin: 0; height: 43px; color:white; background-color: transparent !important;">
-                    <i class="zmdi zmdi-replay" style="font-size: 25px;"></i>
-        </button>
-                
 
         <div>
             <h2 class="text-center all-tittles" style="clear: both; margin: 25px 0; color: #FFF5F4">Listado de Productos según Stock</h2>
