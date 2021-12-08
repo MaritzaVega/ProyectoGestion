@@ -47,14 +47,14 @@ include "SuperiorV.php"
                     <i class="zmdi zmdi-search" style="font-size: 25px;"></i>
                 </button>       
                 
-                <button onclick="ListaProductoStock.php" style="margin: 0; height: 43px; color:white; background-color: transparent !important;">
+                <button href="ListaProductoStock.php" style="margin: 0; height: 43px; color:white; background-color: transparent !important;">
                     <i class="zmdi zmdi-replay" style="font-size: 25px;"></i>
                 </button>     
 
             </div>
         </form>
 
-        </div>
+        <div>
             <h2 class="text-center all-tittles" style="clear: both; margin: 25px 0; color: #FFF5F4">Listado de Productos según Stock</h2>
             <div class="table-responsive">
                 <div class="div-table" style="margin:0 !important;">
@@ -71,7 +71,7 @@ include "SuperiorV.php"
                     </div>
 
                 </div>
-                </div>
+            </div>
                     <div class="table-responsive">
                         <div class="div-table" style="margin:0 !important;">
                                 
@@ -86,7 +86,7 @@ include "SuperiorV.php"
                         </div>
                     </div>
                 
-                </div>
+                
                 
             </div>
         </div>
