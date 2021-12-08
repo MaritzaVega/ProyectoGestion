@@ -60,7 +60,7 @@ $u=$_SESSION['user'];
                         <ul class="list-unstyled">
                             <li><a href="ReporteBalanceVenta.php"><i class="zmdi zmdi-book zmdi-hc-fw"></i>&nbsp;&nbsp; Emitir Reporte de Balance de Venta</a></li>
                              <!--<li><a href="BuscaAlumnoA.php"><i class="zmdi zmdi-book zmdi-hc-fw"></i>&nbsp;&nbsp; Buscar Alumno</a></li>-->
-                            <li><a href="RegistraExpediente.php"><i class="zmdi zmdi-book zmdi-hc-fw"></i>&nbsp;&nbsp; Emitir Reporte de Inventario</a></li>
+                            <li><a href="ListaProductoStock.php"><i class="zmdi zmdi-book zmdi-hc-fw"></i>&nbsp;&nbsp; Emitir Reporte de Inventario</a></li>
                             
                         </ul>
                     </li>
