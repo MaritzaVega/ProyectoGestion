@@ -8,18 +8,18 @@ $listausuario = new Usuario();
 include "SuperiorV.php"
 ?>
 
-<div style="background-color: #192226;">
+<div style="background-image: url('../assets/img/fondoA.jpg');">
 <div class="container">
             <div class="page-header">
               <h1 class="all-tittles" style="color: #FFF5F4">sistema de gestión de ventas <small>Emitir Boleta de Venta</small></h1>
             </div>
         </div>
-        <div class="container-fluid"  style="margin: 20px 10px;">
+        <div class="container-fluid"  style="margin: 50px 0;">
             <div class="row">
                 <div class="col-xs-12 col-sm-4 col-md-3">
-                    <img src="../assets/img/flat-book.png" style="margin: 0px 0px 50px 200px; width: 30%;" alt="user" class="img-responsive center-box" style="max-width: 110px;">
+                    <img src="../assets/img/flat-book.png" alt="user" class="img-responsive center-box" style="max-width: 110px;">
                 </div>
-                <div class="col-xs-12 col-sm-8 col-md-8 text-justify lead" style="color: #FFF5F4; padding-top: 30px ; width: 30%;">
+                <div class="col-xs-12 col-sm-8 col-md-8 text-justify lead" style="color: #FFF5F4">
                 Bienvenido a la sección donde se emitira la boleta de venta<br>
                 </div>
             </div>
@@ -120,7 +120,7 @@ include "SuperiorV.php"
                     <label style="padding: 10px 0px 10px 10px; font-weight: 700;">Buscar producto</label>
                      <input style = "margin: 0px 0px 0px 15px; width: 750%;"type="search" name="buscauser" id="buscauser" style="display: inline-block !important; width: 70%;" class="material-control tooltips-general" placeholder="Buscar Producto"  data-toggle="tooltip" data-placement="top" title="Escribe el nombre del Producto a buscar">
             
-               <button style = "margin: 10px 20px 20px 30px; " type="submit" onclick="document.location = 'RegistraUsuario.php'" name="signup" class="btn btn-primary">  BUSCAR </button>
+               <button style = "margin: 10px 20px 20px 30px; " type="submit" onclick="document.location = 'ListaProductoStock.php'" name="signup" class="btn btn-primary">  BUSCAR </button>
                     </th>
                 </tr>
         </table>

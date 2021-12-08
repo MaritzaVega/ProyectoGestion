@@ -21,7 +21,7 @@ $datos = $cargo->buscarCargo();
         <div class="container-fluid"  style="margin: 50px 0;">
             <div class="row">
                 <div class="col-xs-12 col-sm-4 col-md-3">
-                    <img src="../assets/img/user05.png" alt="user" class="img-responsive center-box" style="max-width: 110px;">
+                    <img src="../assets/img/user01.png" alt="user" class="img-responsive center-box" style="max-width: 110px;">
                 </div>
                 <div class="col-xs-12 col-sm-8 col-md-8 text-justify lead" style="color: #FFF5F4">
                     Bienvenido a la sección en la que puede registrar nuevos usuarios 
