@@ -36,7 +36,7 @@ include "SuperiorV.php"
         </div>
         <div class="container-fluid">
       
-        <form class="col-xs-12"class="pull-right" style="width: 30% !important;" action="" method="post">
+        <form class="col-xs-4" style="width: 30% !important;" method="post">
             <!--Busqueda del Producto por Stock-->
             <div class="group-material">
                 <select  type="search" name="buscaStock" id="buscaStock" style="display: inline-block !important; width: 70%;" class="material-control tooltips-general" placeholder="Buscar Producto por stock"  data-toggle="tooltip" data-placement="top" title="Selecciona el stock a buscar"> 
@@ -46,11 +46,15 @@ include "SuperiorV.php"
                 <button class="btn" style="margin: 0; height: 43px; color:white; background-color: transparent !important;">
                     <i class="zmdi zmdi-search" style="font-size: 25px;"></i>
                 </button>
-                <button onclick="location.href='ListaProductoStock.php'" class="btn" style="margin: 0; height: 43px; color:white; background-color: transparent !important;">
-                    <i class="zmdi zmdi-replay" style="font-size: 25px;"></i>
-                </button>                  
+                              
             </div>
+           
         </form>
+        <button onclick="location.href='ListaProductoStock.php'" class="btn" style="margin: 0; height: 43px; color:white; background-color: transparent !important; align-items: rigth; justify-content: rigth;">
+                    <i class="zmdi zmdi-replay" style="font-size: 25px;"></i>
+        </button>  
+          
+                
 
         <div>
             <h2 class="text-center all-tittles" style="clear: both; margin: 25px 0; color: #FFF5F4">Listado de Productos según Stock</h2>
