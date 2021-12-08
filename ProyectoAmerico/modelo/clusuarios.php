@@ -42,7 +42,7 @@ class Usuario{
 								echo "<div class='div-table-cell' style='width: 4%;'>$resultadousuario[1]</div>";
 
                                 echo "<div class='div-table-cell' style='width: 5%;'><a href='../controlador/eliminarUsuario.php?idusuario=".$columna['idusuario']."'><button type='button' class='btn btn-danger'>Eliminar</button></a></div>";
-                                echo "<div class='div-table-cell' style='width: 3%;'><a href='../vista/editarUsuario.php?idusuario=".$columna['idusuario']."'><button type='button' class='btn btn-primary'>Editar</button></a></div>";
+                                echo "<div class='div-table-cell' style='width: 3%;'><a href='../vista/editarUsuario.php?idusuario=".$columna['numDoc']."'><button type='button' class='btn btn-primary'>Editar</button></a></div>";
 
 
 						echo "</div>";
@@ -140,10 +140,7 @@ class Usuario{
 			$instruccion = "insert into iniciosession (user, password,idestado,cargo) values ('$dni','$dni','1','$car')";
 			$consulta = mysqli_query($conectar->getConexion(),$instruccion);
 
-			echo "<script type=text/javascript>
-			               alert('Usuario registrado exitosamente.');
-			               window.location.href= '../vista/RegistraUsuario.php'
-			     </script>";
+			echo "<script src='../js/registradoExitosamente.js'></script>";
 		}
 	}
 	
