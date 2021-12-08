@@ -142,7 +142,7 @@ include "SuperiorV.php"
                 <div class="title-flat-form title-flat-red">Boleta de Venta</div>
                 <form class="form-padding" method="post" action="../controlador/registraUsuario.php">
 -->       
-    <table>    
+       
        <!--
         <div class="container-fluid">
             <div class="row">
@@ -193,7 +193,7 @@ include "SuperiorV.php"
                     </div>
                 
                 </div>
-        </div>
+        
         <div>                        
                 <p class="text-right">
                     <button style = "margin: 20px 20px 0px 0px " type="submit" onclick="document.location = 'RegistraUsuario.php'" name="signup" class="btn btn-primary"><i class="zmdi zmdi-floppy"></i> &nbsp;&nbsp; Generar Boleta de venta </button>
@@ -205,4 +205,4 @@ include "SuperiorV.php"
 
 <?php 
 include "Inferior.php"
-?>  </div>
+?>  
