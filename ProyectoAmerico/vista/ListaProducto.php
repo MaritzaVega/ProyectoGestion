@@ -24,13 +24,20 @@ include "SuperiorA.php"
                 </div>
             </div>
         </div>
+        
         <div class="container-fluid">
+            
             <div class="row">
                 <div class="col-xs-12 lead">
                     <ol class="breadcrumb">
                         <li><a href="ListaProducto.php">Listado de Productos</a></li>
                     </ol>
                 </div>
+            </div>
+            <div>                        
+                <p class="text-right">
+                    <button type="submit" onclick="document.location = 'RegistraProducto.php'" name="signup" class="btn btn-primary"><i class="zmdi zmdi-floppy"></i> &nbsp;&nbsp; CREAR NUEVO PRODUCTO </button>
+                </p> 
             </div>
         </div>
         <div class="container-fluid">
