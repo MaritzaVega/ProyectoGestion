@@ -64,6 +64,32 @@ class Producto{
 			}
 	}
 
+	public function BuscarStock($stock){
+
+
+		$conectar = new Conexion();
+	
+	
+		$instruccion = "select * from producto where estadoStock like '".$stock."%'  ORDER BY idproducto";
+		$consulta = mysqli_query($conectar->getConexion(),$instruccion);
+
+
+			while ( $columna = mysqli_fetch_array($consulta) ){
+
+						echo "<div class='div-table-row div-table-row-list'>"; 
+
+						echo "<div class='div-table-cell' style='width: 4%;'>$columna[1]</div>";
+						echo "<div class='div-table-cell' style='width: 4%;'>$columna[2]</div>";
+						echo "<div class='div-table-cell' style='width: 6%;'>$columna[3]</div>";
+						echo "<div class='div-table-cell' style='width: 4%;'>$columna[4]</div>";
+						echo "<div class='div-table-cell' style='width: 5%;'>$columna[5]</div>";
+
+				
+						echo "</div>";
+						         
+			}
+	}
+
 	
 	public function listarBusqueda(){
 		
