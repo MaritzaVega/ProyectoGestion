@@ -34,7 +34,7 @@ include "SuperiorV.php"
             <table class="table">
                 <tr>
                     <th>
-                    <p>Codigo de vendedor</p>
+                    <p>Codigo de vendedor </p>
                     <span  type="number"  class="all-tittles" ><?php echo $u;?></span>
                     <br>
                     <br>
