@@ -31,23 +31,52 @@ html, body {
 
 }
 
+/*Tabla Reponsive*/
+
 .Tabla1{
     margin-left: 10%;
     background-color: rgb(182, 182, 182);
     border-radius: 5px;
     margin-right: 15%;
+    min-height: .01%;
+
 
 }
+
+
 .Tabla1 tr{
-   
+
 }
 .Tabla1 th{
-    
+  
 }
 
 .Tabla1 input{
     margin: 0px 80px 0px 15px;
+    border-radius: 5px;
+    border-style: hidden;
+    height: 28px;
+    background-color:rgb(119, 119, 119) ;
 }
+.tabla-label{
+    width: 100%;
+    height: 50px;
+    color : #FFFFFF; 
+    background-color:#7f0000;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.table-label2{
+    background-color:#303f9f ;
+    text-align: center;
+    margin: 20px 0px 0px 0px;;
+    
+}
+
+
 .Tabla1 select{
     margin: 20px 0px 0px 0px 
 }
@@ -219,6 +248,7 @@ select.material-control-login:hover{
 }
 
 /*********==========Tablas con divs*/
+
 .div-table{
     display: table !important;
     width: 100%;
@@ -229,6 +259,16 @@ select.material-control-login:hover{
 }
 .div-table-row{
     display: table-row !important;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: transparent;
+    height: 40px;
+    line-height: 40px;
+}
+
+.div-table-col-group{
+    display: table-column !important;
     width: 100%;
     margin: 0;
     padding: 0;
@@ -529,6 +569,7 @@ input.material-control:invalid:required{
   outline: none;
   box-shadow: none;
 }
+
 /*Barra de formularios material desing ================*/
 .bar{ position:relative; display:block; width:100%; }
 .bar::before, .bar::after     {
@@ -707,10 +748,14 @@ input.material-control:focus ~ .highlight {
     }
     .navbar-user-top > ul > li{ margin: 0 10px; }
     form.form_SRCB{ padding: 7px;}
+
+
     .table-responsive {
         margin-bottom: 0 !important;
         border: none !important;
     }
+
+    
     .modal-body {
         max-height: 300px;
     }

@@ -28,9 +28,10 @@ include "SuperiorV.php"
         <div class="Cabecera">
         <Label>BOLETA DE VENTA  </Label>
         </div>
+  <!--PROBANDO OTRO TIPO DE DISEÑO DE TABLA--!-->
 
         <div class="Tabla1">
-            <table>
+            <table class="table">
                 <tr>
                     <th>
                     <p>Codigo de vendedor</p>
@@ -41,7 +42,7 @@ include "SuperiorV.php"
 
                 <th colspan="2"> 
                 <p>Vendedor</p>
-                    <input  type="text"  class="all-tittles" >
+                <span  type="text"  class="all-tittles" ><?php echo $nom;?></span>
                     <br>
                     <br>
                 </th>
@@ -50,24 +51,28 @@ include "SuperiorV.php"
                    
                 </th>
 
-                <th rowspan="3">
-                <div style="background-color:#303f9f ; width:100%; color:#FFFFFF; margin: 0px 50px 0px 0px">
+                <th rowspan="3" style="background-color:#303f9f ; width:70%; height: 100%; color:#FFFFFF; border-radius: 3px;">
 					<br>
                     <br>
 				</div>
-                    <div style=" color : #FFFFFF; background-color:#7f0000 ;width:100%; text-align: center; " >
-					    <label style="margin : 10px 0px 10px 0px"> Boleta de venta </label>
+                
+                <div class="tabla-label" >
+					    <label> Boleta de venta </label>
 					    <br>
 					</div>
-					<div style="background-color:#303f9f; width:100% ; height:100% ; top:10px; text-align: center">
-					    <label style="color: #FFFFFF;">N°</label> 
-                        <input  style="width:100% ; margin:5px 300px 10px 0px; text-align: center;" type="number" placeholder="00000000">
-					    <br>
+
+                    <div class="table-label2" >
+                    <br>
+					    <label style="margin: 0px 0px 0px 60px;">N°</label> 
+                        <input style="width: 50%; align-items: center;" type="number" placeholder="00000000">
                         <br>
                         <br>
+                        
+                        <hr style="color: #7f0000; margin: px 0px 0px -10px;">
                         <p style="color:#FFFFFF">Fecha de emision:</p>
-                       <input style="margin: 10px 3px 20px 30px " type="date" name="fecha">
+                       <input style="margin: 10px 3px 20px 30px; text-align: center;" type="date" name="fecha">
                     </div>
+					
                 </th>
 
                 </tr>
@@ -79,16 +84,17 @@ include "SuperiorV.php"
                     <br>
                     <br>
                 </th>
-                <th style="padding: 0px 40px 15px 40px;">
-                <label style="font-weight:900;">Tipo Documento</label>
-                    <select name="Tdocumento"> 
+                <th>
+                <p style="margin: -10px 50px 0px -5px;">Tipo Documento</p>
+                    <select style="color:#ffffff ;margin: 0px -50px 0px 10px; background-color: #777777; border-radius: 5px;" name="Tdocumento"> 
                         <option>DNI</option> 
                         <option>PASAPORTE</option> 
                     </select> 
                 </th>
+                
                 <th>
-                <p> Número de Documento</p>
-                    <input  type="number"  class="all-tittles" >
+                <label  style="font-weight:900; padding: 0px 40px 15px 100px;"> Número de Documento</label>
+                    <input  style=" margin: 0px 20px 10px 100px;" type="number"  class="all-tittles" >
                     <br>
                     <br>
                 </th>
@@ -96,21 +102,22 @@ include "SuperiorV.php"
                 <tr>
                     <th>
                         <p>Dirección</p>
-                        <input  type="text"  class="all-tittles" >
+                        <input style="margin: 0px 20px 0px 20px ; width: 150%;" type="text"  class="all-tittles" >
                         <br>
                         <br>
                         
                     </th>
 
                     <th colspan="2">
-                    <p>Celular</p>
-                        <input  type="number"  class="all-tittles" >
+                    <p style="margin: 0px 0px 0px 210px;">Celular</p>
+                        <input style="margin: 10px 0px 0px 220px;" type="number"  class="all-tittles" >
                         <br>
                         <br> 
                     </th>
                 </tr>
             </table>
         </div>
+
         <br>
 
         <div class="Tabla2">
@@ -125,6 +132,7 @@ include "SuperiorV.php"
                 </tr>
         </table>
         </div>
+        </div>
 
 <br>
 <br>
@@ -134,8 +142,7 @@ include "SuperiorV.php"
                 <div class="title-flat-form title-flat-red">Boleta de Venta</div>
                 <form class="form-padding" method="post" action="../controlador/registraUsuario.php">
 -->       
-    <table>
-        
+    <table>    
        <!--
         <div class="container-fluid">
             <div class="row">

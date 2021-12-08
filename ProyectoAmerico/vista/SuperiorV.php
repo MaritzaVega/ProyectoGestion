@@ -2,6 +2,7 @@
 
 include "../modelo/clusuariosadmin.php";
 $u=$_SESSION['user'];
+$nom=$_SESSION['nombre'];
 ?>
 
 <!DOCTYPE html>

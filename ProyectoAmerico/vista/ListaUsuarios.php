@@ -32,6 +32,7 @@ include "SuperiorA.php"
                 </div>
             </div>
         </div>
+
         <div class="container-fluid">
             <div>                        
                 <p class="text-right">
@@ -39,6 +40,7 @@ include "SuperiorA.php"
                 </p> 
             </div>
             <h2 class="text-center all-tittles" style="clear: both; margin: 25px 0; color: #FFF5F4">listado de Usuarios</h2>
+           <!--Tabla!-->
             <div class="table-responsive">
                 <div class="div-table" style="margin:0 !important;">
                     
