@@ -90,7 +90,7 @@ include "SuperiorV.php"
                 
             </div>
         </div>
-            <br>
+      
 
 <?php 
 include "Inferior.php"
