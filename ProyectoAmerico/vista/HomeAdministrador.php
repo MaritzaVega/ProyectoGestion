@@ -27,7 +27,7 @@ include "SuperiorA.php"
                 <div class="tile-num full-reset" style="font-size: 16px;">Multifunciones Usurios</div>
             </article>
             <article class="tile">
-                <div class="tile-icon full-reset"><a href="ReporteBalanceVenta.php"><img src="../assets/img/expe.png" alt="user" class="img-responsive center-box" style="max-width: 100px;"></a></div>
+                <div class="tile-icon full-reset"><a href="ListaProducto.php"><img src="../assets/img/expe.png" alt="user" class="img-responsive center-box" style="max-width: 100px;"></a></div>
                 <div class="tile-name all-tittles">Gestionar Gestionar Producto</div>
                 <div class="tile-num full-reset" style="font-size: 16px;">Multifunciones Productos</div>
             </article>
